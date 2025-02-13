@@ -7,7 +7,7 @@ jobs:
     - name: Get code
       uses: actions/checkout@v4 #predefined actions that has certain commands in it
     - name: Install nodejs
-      uses: actions/setup-node
+      uses: actions/setup-node@v4
       with: 
         node-version: 20
     - name: Install dependencies
